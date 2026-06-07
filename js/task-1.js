@@ -6,6 +6,6 @@ categories.forEach(category => {
     const titel = category.querySelector(`h2`).textContent;
     const elements = category.querySelectorAll(`ul li`).length;
 
-    console.log(`Category: ${title}`);
+    console.log(`Category: ${titel}`);
     console.log(`Elements: ${elements}`);
 });
